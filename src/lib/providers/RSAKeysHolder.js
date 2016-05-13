@@ -35,10 +35,10 @@ RSAKeysHolder.prototype.publicKey = function(callback) {
 	if (process.env.EYEOS_CRYPT_PWD_PUBLIC_KEY) {
 		// public key is passed base64 encoded in the environment, so decode it
 		try {
-			self.public = ursa.createPublicKey(
+			this.public = ursa.createPublicKey(
 				new Buffer(process.env.EYEOS_CRYPT_PWD_PUBLIC_KEY, 'base64').toString("utf-8")
 			);
-			return callback(false, self.public);
+			return callback(false, this.public);
 		} catch (e) {
 			// key in envar isn't valid (not base64 as expected), fallback
 			// to old method
@@ -72,10 +72,10 @@ RSAKeysHolder.prototype.privateKey = function(callback) {
 	if (process.env.EYEOS_CRYPT_PWD_PRIVATE_KEY) {
 		// private key is passed base64 encoded in the environment, so decode it
 		try {
-			self.private = ursa.createPrivateKey(
+			this.private = ursa.createPrivateKey(
 				new Buffer(process.env.EYEOS_CRYPT_PWD_PRIVATE_KEY, 'base64').toString("utf-8")
 			);
-			return callback(false, self.private);
+			return callback(false, this.private);
 		} catch (e) {
 			// key in envar isn't valid (not base64 as expected), fallback
 			// to old method
