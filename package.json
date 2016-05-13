@@ -9,7 +9,6 @@
     "ursa": "0.9.1"
   },
   "devDependencies": {
-    "eyeos-builder-utils": "*",
     "eyeos-gruntfile": "*",
     "chai": "1.10.0",
     "sinon": "1.12.2",
@@ -17,8 +16,7 @@
     "grunt": "0.4.5",
     "grunt-init": "0.3.2",
     "grunt-shell": "1.1.1",
-    "grunt-mocha-test": "0.12.6",
-    "eyeos-authentication-fake": "*"
+    "grunt-mocha-test": "0.12.6"
   },
   "license": "AGPL-3.0"
 }
