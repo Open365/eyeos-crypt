@@ -1,6 +1,6 @@
 {
   "name": "eyeos-crypt",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "eyeos crypt library",
   "main": "src/index.js",
   "author": "eyeOS",
