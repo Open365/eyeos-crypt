@@ -1,12 +1,12 @@
 {
   "name": "eyeos-crypt",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "eyeos crypt library",
   "main": "src/index.js",
   "author": "eyeOS",
   "homepage": "http://www.eyeos.com/",
   "dependencies": {
-    "ursa": "0.9.1"
+    "ursa": "0.9.4"
   },
   "devDependencies": {
     "eyeos-gruntfile": "*",
