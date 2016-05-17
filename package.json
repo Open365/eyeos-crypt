@@ -6,7 +6,7 @@
   "author": "eyeOS",
   "homepage": "http://www.eyeos.com/",
   "dependencies": {
-    "ursa": "0.9.1"
+    "ursa": "0.9.4"
   },
   "devDependencies": {
     "eyeos-gruntfile": "*",
